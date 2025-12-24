@@ -22,11 +22,11 @@ const TARGET_FPS = 60;
 const FRAME_TIME = 1000 / TARGET_FPS;
 
 const PHOTO_ASSETS = [
-    "/assets/sarah_photos/photo1.png",
-    "/assets/sarah_photos/photo2.png",
-    "/assets/sarah_photos/photo3.jpg",
-    "/assets/sarah_photos/photo4.jpg",
-    "/assets/sarah_photos/photo5.jpg",
+    "/HBD-SARAH/assets/sarah_photos/photo1.png",
+    "/HBD-SARAH/assets/sarah_photos/photo2.png",
+    "/HBD-SARAH/assets/sarah_photos/photo3.jpg",
+    "/HBD-SARAH/assets/sarah_photos/photo4.jpg",
+    "/HBD-SARAH/assets/sarah_photos/photo5.jpg",
 ];
 
 interface Obstacle {

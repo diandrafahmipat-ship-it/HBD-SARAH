@@ -9,7 +9,7 @@ import Image from "next/image";
 // --- CONSTANTS ---
 const GRID_SIZE = 3; // 3x3
 const TOTAL_PIECES = GRID_SIZE * GRID_SIZE;
-const IMAGE_SRC = "/assets/game5/puzzle.jpg"; // Corrected Path
+const IMAGE_SRC = "/HBD-SARAH/assets/game5/puzzle.jpg"; // Corrected Path
 
 export default function Game5() {
     const { completeLevel } = useGame();

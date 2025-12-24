@@ -331,7 +331,7 @@ export default function Game1Chat() {
                                                         <p className="text-[10px] text-gray-500 uppercase tracking-widest text-center">Bukti Kenangan Kita 👇</p>
                                                         <div className="rounded-lg overflow-hidden border-2 border-[#5c9ce6]/30 shadow-lg">
                                                             <img
-                                                                src="/assets/real_chat.png"
+                                                                src="/HBD-SARAH/assets/real_chat.png"
                                                                 alt="Chat Asli Kita"
                                                                 className="w-full object-cover"
                                                             />
