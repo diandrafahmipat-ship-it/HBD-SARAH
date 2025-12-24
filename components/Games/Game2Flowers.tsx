@@ -300,11 +300,10 @@ export default function Game2Flowers() {
             {/* EXIT TRANSITION OVERLAY */}
             {isExiting && (
                 <motion.div
-                    className="absolute inset-0 bg-[#2a0808] z-[100]"
+                    className="absolute inset-0 bg-[#2a0808] z-[100] flex items-center justify-center"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1.5 }}
-                    flex items-center justify-center
                 >
                     <motion.div
                         initial={{ scale: 0 }}

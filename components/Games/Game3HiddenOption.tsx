@@ -43,7 +43,7 @@ export default function Game3CatchPhone() {
     const [renderLives, setRenderLives] = useState(4);
     const [renderItems, setRenderItems] = useState<FallingItem[]>([]); // Synced for render
 
-    const requestRef = useRef<number>();
+    const requestRef = useRef<number>(0);
     const lastSpawnTime = useRef<number>(0);
     const containerRef = useRef<HTMLDivElement>(null);
 
